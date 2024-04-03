@@ -34,7 +34,10 @@ public class EncapsulationConcept {
 		EncapsulationConcept obj = new EncapsulationConcept();
 		obj.setName("Yugal");
 		System.out.println(obj.getName());
-
+		obj.setRollno(551);
+		System.out.println(obj.getRollno());
+		obj.setFinalmarks(33.33);
+		System.out.println(obj.getFinalmarks());
 	}
 	
 
